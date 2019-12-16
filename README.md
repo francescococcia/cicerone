@@ -1,6 +1,8 @@
 # Welcome to the PHP MVC framework
 Prima di inizializzare il progetto seguire questa guida per installare il composer sulla versione del php corrente: https://getcomposer.org/download/
 
+papocchie
+
 This is a simple MVC framework for building web applications in PHP. It's free and [open-source](LICENSE).
 
 It was created for the [Write PHP like a pro: build an MVC framework from scratch](https://www.udemy.com/php-mvc-from-scratch/?couponCode=githubpa1) course. The course explains how the framework is put together, building it step-by-step, from scratch. If you've taken the course, then you'll already know how to use it. If not, please follow the instructions below.

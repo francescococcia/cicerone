@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Utente Pubblico{% endblock %}
+
+{% block body %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+      <div class="panel panel-login">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-lg-12">
+              {% if user.profile_picture %}
+              <h3 align="center"><img src="data:image/png;base64,{{ user.profile_picture }}" alt="avatar" class="avatar"/>
+                {% else %}
+                <h3 align="center"><img src="/pictures/user2.png" alt="avatar" class="avatar"/>
+                  {% endif %}
+                <br>
+                <br>
+              <strong>  {{user.name}}</strong>
+                <br>
+              </h3>
+            </div>
+          </div>
+
+          <form id="register-form" action="/home/" method="post" role="form" style="display: block;">
+            <div class="escursione-public">
+
+              <h4 align="center">{{age}} anni</h4>
+              <br>
+
+              {% if user.description != "" %}
+              <label><textarea class="form-control" readonly
+                rows="4" id="description" maxlength="300" class="form-control">{{user.description}}</textarea></label>
+                <br>
+              {% endif %}
+              {% if n_feedback > 0 %}
+                 <a href="/userprofile/show/{{id_cicerone}}/review">
+                   <label for="first_name"><h4><span class="glyphicon glyphicon-star" aria-hidden="true">
+                     <strong>{{avarage_rating}}/5 - {{n_feedback}} feedback</strong>
+                   </span></h4></label>
+                </a>
+                {% else %}
+                <label for="first_name"><h4><span class="glyphicon glyphicon-star" aria-hidden="true">
+                  <strong>feedback - Nessuno</strong>
+                </span></h4></label>
+              {% endif %}
+
+                {% if tel == true %}
+                <label for="first_name"><h4><strong>{{user.self_phone}}</strong></h4></label>&ensp;
+                <br>
+                {% endif %}
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endblock %}

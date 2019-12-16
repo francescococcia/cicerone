@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}Segnalazione{% endblock %}
+
+{% block footer %}
+<script src="/js/flashMessages.js"></script>
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="panel panel-login">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-xs-12">
+        	<h2 style="font-family: Geneva"Invia una segnalazione all'admin</h2>
+          </div>
+        </div>
+        <form id="commonFields-form" action="/reporting/sendticket" method="get" role="form" style="display: block;">
+          <div class="form-group">
+						<label for="first_name"><h4>Oggetto</h4></label>
+            <input type="text" required name="subject" id="subject" tabindex="1" class="form-control">
+          </div>
+					<div class="form-group">
+					<label for="first_name"><h4>Testo</h4></label>
+					<textarea name="body" placeholder="Massimo 300 caratteri"
+					cols="69" rows="8" id="body" maxlength="300" class="form-control"></textarea>
+					</div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Invia">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

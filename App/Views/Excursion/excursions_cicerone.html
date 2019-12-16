@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block title %}Escursioni{% endblock %}
+
+
+{% block footer %}
+<script src="/js/foundation-datepicker.js"></script>
+<script src="/js/foundation-datepicker.it.js"></script>
+<script src="/js/flashMessages.js"></script>
+
+<script>
+function confirmDelete() {
+  var richiesta = window.confirm("Sei sicuro di voler eliminare l'escursione? Verranno eliminati tutti i tuoi globetrotters ad essa collegati");
+  if(richiesta)
+  {
+    document.getElementById("removeExcursion-form").submit();
+  }
+}
+</script>
+
+<script>
+  function setTwoNumberDecimal(event) {
+    this.value = parseFloat(this.value).toFixed(2);
+}
+</script>
+
+
+<script>
+$(function(){
+  var today = new Date();
+	$('#meeting_date').fdatepicker({
+		format: 'mm/dd/yyyy',
+    startDate: today,
+		leftArrow:'<',
+		rightArrow:'>'
+	});
+});
+</script>
+{% endblock %}
+
+{% block body %}
+
+  <div class="row">
+    <div class="col-lg-12">
+      {% if excursions %}
+        <h3 align="center">Gestisci escursioni</h3>
+      {% else %}
+      <h3 align="center">Nessuna escursione da gestire</h3>
+      {% endif %}
+    </div>
+  </div>
+  {% for excursion in excursions %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+        <div class="panel panel-login">
+          <div class="panel-body">
+
+              <input type="hidden" id="id" name="id" value="{{ excursion.id }}"/>
+              <div class="escursione">
+                <form id="register-form" action="/RequestExcursion/modifyExcursion" method="post" role="form" style="display: block;">
+                <input type="hidden" id="id_excursion" name="id_excursion" value="{{ excursion.id_excursion }}"/>
+                <label for="first_name"><h4><strong>Destinazione</strong></h4></label>&ensp;
+                <label><input type="text" autocapitalize="on" name="destination" id="destination"
+                  tabindex="1" class="form-control" value="{{excursion.destination}}" readonly/></label>
+                  <br>
+
+
+                  <label for="first_name"><h4><strong>Tipologia</strong></h4></label>&ensp;
+                  <label><input type="text"  class="form-control" value="{{excursion.type}}" readonly/></label>
+                  <br>
+
+                  <label for="first_name"><h4><strong>Lingua</strong></h4></label>&ensp;
+                  <label><input type="text"  class="form-control" value="{{excursion.language}}" readonly/></label>
+                  <br>
+
+                  <label for="first_name"><h4><strong>Data</strong></h4></label>&ensp;
+
+                  <label><input type="text" required id="meeting_date" name="meeting_date" tabindex="1" class="form-control" value="{{ excursion.meeting_date|date("m/d/Y")}}"></label>
+                  <br>
+
+                  <label for="first_name"><h4><strong>Orario d'incontro</strong></h4></label>&ensp;
+                  <label for="first_name">
+                    <input type="text" id="meeting_time" name="meeting_time" data-toggle="timepicker" tabindex="1" class="form-control" value="{{excursion.meeting_time|date("H:i")}}">
+                  </label >
+                  <br>
+
+                  <label for="first_name"><h4><strong>Luogo d'incontro</strong></h4></label>&ensp;
+                  <label><input type="text" autocapitalize="on" name="meeting_address" id="meeting_address"
+                    tabindex="1" class="form-control" value="{{excursion.meeting_address}}" /></label>
+                    <br>
+                    <label for="first_name"><h4><strong>Prezzo</strong></h4></label>&ensp;
+                    <label><div class="input-group"><input type="number" value="{{excursion.price}}" onchange="setTwoNumberDecimal"
+                      id="price" name="price" min="0" step="0.50" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control">
+                      <span class="input-group-addon">€</span></div></label>
+                      <br>
+                      <label for="first_name"><h4><strong>Posti disponibili</strong></h4></label>&ensp;
+                      <label><input type="number" id="seats" name="seats" min="0" class="form-control"
+                        value="{{excursion.seats}}"/></label>
+                        <br>
+
+                      <label for="first_name"><h4><strong>Descrizione</strong></h4></label>&ensp;
+                      <label><textarea class="form-control"
+                        rows="3" id="description" name="description" maxlength="300" class="form-control">{{excursion.description}}</textarea></label>
+                        <br>
+                        <input type="submit" align="left" name="login-submit" id="login-submit" tabindex="4" class="app-button" value="Applica modifiche"/>
+
+                          </form>
+                          <div class="row">
+
+                            <form id="removeExcursion-form" onreset="return confirmDelete()" action="/RequestExcursion/removeExcursion" method="post" role="form" style="display: block;">
+                            <input type="hidden" id="id_excursion" name="id_excursion" value="{{ excursion.id_excursion }}"/>
+                            <input type="reset" align="left" name="login-submit" id="login-submit" tabindex="4" class="app-button" value="Rimuovi escursione"/>
+                      </form>
+                        <button  onclick="window.location.href = '{{ config_root }}offered/globtrotters/{{ excursion.id_excursion }}';" claalign="left"
+                        name="login-submit" id="login-submit" tabindex="4" class="app-button"
+                        type="button">Gestisci globtrotters</button>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          {% endfor %}
+          {% endblock %}

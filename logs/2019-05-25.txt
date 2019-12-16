@@ -1,0 +1,251 @@
+[25-May-2019 00:01:36 UTC] Uncaught exception: 'ErrorException' with message 'Use of undefined constant WARNING - assumed 'WARNING' (this will throw an Error in a future version of PHP)'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(44): Core\Error::errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\A...', 44, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::getWarningMessage()
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 44
+[25-May-2019 00:01:41 UTC] Uncaught exception: 'ErrorException' with message 'Use of undefined constant WARNING - assumed 'WARNING' (this will throw an Error in a future version of PHP)'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(44): Core\Error::errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\A...', 44, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::getWarningMessage()
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 44
+[25-May-2019 00:02:31 UTC] Uncaught exception: 'Error' with message 'Using $this when not in object context'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::getWarningMessage()
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 44
+[25-May-2019 00:03:25 UTC] Uncaught exception: 'ErrorException' with message 'Use of undefined constant WARNING - assumed 'WARNING' (this will throw an Error in a future version of PHP)'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(44): Core\Error::errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\A...', 44, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::getWarningMessage()
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 44
+[25-May-2019 00:03:29 UTC] Uncaught exception: 'ErrorException' with message 'Use of undefined constant WARNING - assumed 'WARNING' (this will throw an Error in a future version of PHP)'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(44): Core\Error::errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\A...', 44, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::getWarningMessage()
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 44
+[25-May-2019 00:04:14 UTC] Uncaught exception: 'Error' with message 'Cannot access private const App\Flash::WARNING'
+Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#3 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 58
+[25-May-2019 00:04:18 UTC] Uncaught exception: 'Error' with message 'Cannot access private const App\Flash::WARNING'
+Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#3 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 58
+[25-May-2019 00:04:27 UTC] Uncaught exception: 'Error' with message 'Cannot access private const App\Flash::WARNING'
+Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#3 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 58
+[25-May-2019 00:04:31 UTC] Uncaught exception: 'Error' with message 'Cannot access private const App\Flash::WARNING'
+Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#3 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 58
+[25-May-2019 00:04:56 UTC] Uncaught exception: 'Error' with message 'Cannot access private const App\Flash::WARNING'
+Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#3 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 58
+[25-May-2019 00:05:19 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Flash::getWarningMessage()'
+Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#3 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 60
+[25-May-2019 00:05:22 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Flash::getWarningMessage()'
+Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#3 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 60
+[25-May-2019 00:44:58 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected "}".'
+Stack trace: #0 C:\wamp64\www\vendor\twig\twig\src\Lexer.php(281): Twig\Lexer->lexExpression()
+#1 C:\wamp64\www\vendor\twig\twig\src\Lexer.php(182): Twig\Lexer->lexBlock()
+#2 C:\wamp64\www\vendor\twig\twig\src\Environment.php(542): Twig\Lexer->tokenize(Object(Twig\Source))
+#3 C:\wamp64\www\vendor\twig\twig\src\Environment.php(595): Twig\Environment->tokenize(Object(Twig\Source))
+#4 C:\wamp64\www\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#5 C:\wamp64\www\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'login/new.html', NULL)
+#6 C:\wamp64\www\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('login/new.html')
+#7 C:\wamp64\www\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('login/new.html')
+#8 C:\wamp64\www\Core\View.php(55): Twig\Environment->render('login/new.html', Array)
+#9 C:\wamp64\www\App\Controllers\Login.php(64): Core\View::renderTemplate('login/new.html', Array)
+#10 [internal function]: App\Controllers\Login->createAction()
+#11 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#12 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#13 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#14 {main}
+Thrown in 'C:\wamp64\www\App\Views\Login\new.html' on line 30
+[25-May-2019 00:45:02 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected "}".'
+Stack trace: #0 C:\wamp64\www\vendor\twig\twig\src\Lexer.php(281): Twig\Lexer->lexExpression()
+#1 C:\wamp64\www\vendor\twig\twig\src\Lexer.php(182): Twig\Lexer->lexBlock()
+#2 C:\wamp64\www\vendor\twig\twig\src\Environment.php(542): Twig\Lexer->tokenize(Object(Twig\Source))
+#3 C:\wamp64\www\vendor\twig\twig\src\Environment.php(595): Twig\Environment->tokenize(Object(Twig\Source))
+#4 C:\wamp64\www\vendor\twig\twig\src\Environment.php(408): Twig\Environment->compileSource(Object(Twig\Source))
+#5 C:\wamp64\www\vendor\twig\twig\src\Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'Login/new.html', NULL)
+#6 C:\wamp64\www\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('Login/new.html')
+#7 C:\wamp64\www\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('Login/new.html')
+#8 C:\wamp64\www\Core\View.php(55): Twig\Environment->render('Login/new.html', Array)
+#9 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#10 [internal function]: App\Controllers\Login->newAction()
+#11 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#12 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#13 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#14 {main}
+Thrown in 'C:\wamp64\www\App\Views\Login\new.html' on line 30
+[25-May-2019 01:41:53 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[25-May-2019 01:42:11 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[25-May-2019 13:29:53 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 13:30:00 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(38): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 38, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 38
+[25-May-2019 13:30:32 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 13:36:21 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(20): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 13:36:53 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(20): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 13:37:04 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(20): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 13:38:48 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 13:42:08 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 14:37:33 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 14:39:29 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 14:39:34 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 14:40:08 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205
+[25-May-2019 14:40:10 UTC] Uncaught exception: 'Error' with message 'Class 'App\Models\Token' not found'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(19): App\Models\User->rememberLogin()
+#1 C:\wamp64\www\App\Controllers\Login.php(44): App\Auth::login(Object(App\Models\User), true)
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Models\User.php' on line 205

@@ -1,0 +1,1179 @@
+[24-May-2019 08:08:32 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:08:37 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:08:41 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:08:41 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:08:41 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:08:41 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:09:56 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:10:13 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:10:15 UTC] Uncaught exception: 'ErrorException' with message 'Non-static method App\Models\User::getAllUsers() should not be called statically'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(68): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\wamp64\\www\\A...', 68, Array)
+#1 [internal function]: App\Controllers\Login->adminAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('admin', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 68
+[24-May-2019 08:35:45 UTC] Uncaught exception: 'Error' with message 'Call to undefined method App\Auth::getCurrentPage()'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#1 [internal function]: App\Controllers\Login->newAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#5 {main}
+Thrown in 'C:\wamp64\www\Core\Controller.php' on line 105
+[24-May-2019 09:04:19 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:20 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:20 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:20 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:26 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:27 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Signup.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Signup->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:28 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:28 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Signup.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Signup->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:04:47 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: currentSegment'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(57): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\A...', 57, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 57
+[24-May-2019 09:07:20 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/admin/')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[24-May-2019 21:58:36 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 21:58:41 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(38): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 38, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Controllers\Login.php' on line 38
+[24-May-2019 21:58:47 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:02:40 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:03:25 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:05:58 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:07:33 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:09:58 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:11:08 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:11:13 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:11:33 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(64): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:11:44 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(64): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:12:52 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(67): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:15:18 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(62): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:18:18 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:18:24 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:22:38 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:25:41 UTC] Uncaught exception: 'ErrorException' with message 'Illegal string offset 'Controlla le tue credenziali e riprova''
+Stack trace: #0 C:\wamp64\www\App\Flash.php(20): Core\Error::errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\A...', 20, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:25:45 UTC] Uncaught exception: 'ErrorException' with message 'Illegal string offset 'Controlla le tue credenziali e riprova''
+Stack trace: #0 C:\wamp64\www\App\Flash.php(20): Core\Error::errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\A...', 20, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:27:53 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:27:55 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:27:57 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 20
+[24-May-2019 22:30:16 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23
+[24-May-2019 22:30:43 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 22
+[24-May-2019 22:30:45 UTC] Uncaught exception: 'Error' with message '[] operator not supported for strings'
+Stack trace: #0 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#4 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 22
+[24-May-2019 22:31:18 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '$_SESSION' (T_VARIABLE)'
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\App\Controllers\Login.php(58): spl_autoload_call('App\\Flash')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23
+[24-May-2019 22:31:18 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in C:\wamp64\www\App\Flash.php on line 23
+[24-May-2019 22:33:47 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(25): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 25, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 25
+[24-May-2019 22:34:12 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:34:14 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:34:16 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:34:17 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:34:31 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:34:32 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:34:34 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:34:36 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:35:19 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:35:21 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\wamp64\www\App\Flash.php(24): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\A...', 24, Array)
+#1 C:\wamp64\www\App\Controllers\Login.php(58): App\Flash::addMessage('Controlla le tu...')
+#2 [internal function]: App\Controllers\Login->createAction()
+#3 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#4 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#5 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#6 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 24
+[24-May-2019 22:38:05 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '$_SESSION' (T_VARIABLE)'
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\App\Controllers\Login.php(58): spl_autoload_call('App\\Flash')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('create', Array)
+#6 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/create')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23
+[24-May-2019 22:38:05 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in C:\wamp64\www\App\Flash.php on line 23
+[24-May-2019 23:02:35 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(22): Core\View::renderTemplate('Home/index.html')
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('index', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('home/index')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:02:38 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(70): Core\View::renderTemplate('home/loggato.ht...')
+#4 [internal function]: App\Controllers\Login->loggatoAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('loggato', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/loggato')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:05:43 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(70): Core\View::renderTemplate('home/loggato.ht...')
+#4 [internal function]: App\Controllers\Login->loggatoAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('loggato', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login/loggato')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:05:44 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:05:45 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:05:45 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:05:46 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:05:47 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:05:47 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:03 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:05 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:06 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:07 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:07 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:08 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:08 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:09 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:09 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:31 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:32 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:32 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:33 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:34 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:34 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:58 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:54:59 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:00 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:00 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:02 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:02 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:03 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:16 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:17 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:17 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:18 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:19 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:19 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:55 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:55 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:55 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:56 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:56 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:55:57 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected 'const' (T_CONST), expecting ',' or ';''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 17
+[24-May-2019 23:56:50 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:56:50 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:56:51 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:56:51 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:56:51 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:56:51 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:56:51 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:56:51 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:57:41 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:57:42 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:57:42 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:57:42 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:57:43 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:57:43 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 28
+[24-May-2019 23:58:11 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23
+[24-May-2019 23:58:11 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23
+[24-May-2019 23:58:12 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Signup.php(27): Core\View::renderTemplate('Signup/new.html')
+#4 [internal function]: App\Controllers\Signup->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('registrazione')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23
+[24-May-2019 23:58:12 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Home.php(28): Core\View::renderTemplate('Home/cercaescur...')
+#4 [internal function]: App\Controllers\Home->cercaAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('cerca', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('cerca')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23
+[24-May-2019 23:58:13 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']''
+Stack trace: #0 C:\wamp64\www\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp64\\www\\v...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Flash')
+#2 C:\wamp64\www\Core\View.php(52): spl_autoload_call('App\\Flash')
+#3 C:\wamp64\www\App\Controllers\Login.php(28): Core\View::renderTemplate('Login/new.html')
+#4 [internal function]: App\Controllers\Login->newAction()
+#5 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#7 C:\wamp64\www\public\index.php(40): Core\Router->dispatch('login')
+#8 {main}
+Thrown in 'C:\wamp64\www\App\Flash.php' on line 23

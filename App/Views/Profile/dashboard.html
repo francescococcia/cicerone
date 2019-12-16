@@ -1,0 +1,280 @@
+{% extends "base.html" %}
+
+{% block title %}Profilo Account{% endblock %}
+
+
+{% block footer %}
+<script src="/js/flashMessages.js"></script>
+<script src="/js/uploadPictureProfile.js"></script>
+<script src="/js/validateFileSize.js"></script>
+<script src="/js/descriptionReadWrite.js" type="text/javascript"></script>
+<script src="/js/confirmDeleteAccount.js" type="text/javascript"></script>
+<script src="/js/validateCommonFields.js" type="text/javascript"></script>
+<script src="/js/validateCommonForm.js" type="text/javascript"></script>
+
+<script>
+
+  $(document).ready(function() {
+
+    /**
+    * Validate the form
+    */
+    $('#Account-form').validate({
+      rules: {
+        old_password: {
+          required: true,
+          remote: '/account/validate-password'
+
+        },
+        password: {
+          required: true,
+          minlength: 6,
+          validPassword: true
+        },
+        password_confirmation: {
+          required: true,
+          equalTo: '#password'
+        },
+      },
+      messages: {
+        old_password:{
+          required: "Inserisci la tua password attuale",
+          remote: "password attuale non corretta"
+        },
+        password:{
+          required:"Inserisci almeno 6 caratteri",
+          minlength: "Inserisci almeno 6 caratteri"
+        },
+        password_confirmation: {
+          required: "Ripeti la stessa password",
+          equalTo: "I campi della password devono essere uguali",
+        },
+      }
+    });
+  });
+
+</script>
+
+
+{% endblock %}
+
+
+{% block body %}
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <hr>
+  <div class="container bootstrap snippet">
+    <div class="row">
+
+      <div class="col-sm-3"><!--left col-->
+
+
+        <div class="text-Nome">
+          {% if current_user.profile_picture %}
+          <img src="data:image/png;base64,{{ profile_picture }}" class="avatar img-circle img-thumbnail" alt="avatar" style="  width: 150px; height: 150px;"/>
+          {% else %}
+          <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar" style="  width: 150px; height: 150px;">
+          {% endif %}
+          <h6></h6>
+          <label class="custom-file-upload">
+            <form id="pictureform" action="/profile/updateProfilePicture" method="post" enctype="multipart/form-data">
+              <input type="file" name="profile_picture" id="profile_picture" class="text-center center-block file-upload">
+              <input type="hidden" id="id" name="id" value="{{ excursion.id }}">
+            </form>
+            Carica foto profilo
+          </label>
+
+
+        </div>
+        <br>
+
+        <div class="row">
+          <div class="col-sm-3"><!--left col-->
+            <div class="col-xs-6">
+              <label for="description"><h4>Descrizione</h4></label>
+              <textarea name="description_pass" placeholder="Quali sono i tuoi interessi? Che tipo di persona sei? Racconta agli altri un po' di te. Massimo 500 caratteri."
+              cols="35" rows="10" id="description_pass" onchange="getDescription()" maxlength="300">{{current_user.description}}</textarea>
+            </div>
+          </div>
+        </div>
+      </div><!--/col-3-->
+
+      <div class="col-sm-9">
+        <ul class="nav nav-tabs">
+          <li class="active"><a onclick="writedDescription()" data-toggle="tab" href="#home">Dati Personali</a></li>
+          <li><a data-toggle="tab" onclick="onlyReadDescription()" href="#messages">Impostazioni Account</a></li>
+          <li><a data-toggle="tab" onclick="onlyReadDescription()"href="#feedback">Feedback</a></li>
+        </ul>
+
+
+        <div class="tab-content">
+
+          <div class="tab-pane active" id="home">
+
+            <hr>
+            <form id="commonFields-form" action="/profile/updatePersonalData"
+            method="post" role="form" style="display: block;">
+            <div class="col-xs-12">
+              <label for="name"><h4>Nome</h4></label>
+
+              <input type="text" class="form-control" required name="name"
+              id="name" value="{{ current_user.name}}">
+            </div>
+
+            <div class="form-group">
+
+              <div class="col-xs-12">
+                <label for="surname"><h4>Cognome</h4></label>
+
+                <input type="text" class="form-control" required name="surname"
+                id="surname" value="{{ current_user.surname}}">
+              </div>
+            </div>
+            <div class="form-group">
+
+              <div class="col-xs-12">
+                <label for="self_phone"><h4>Telefono</h4></label>
+
+                <input type="tel" required id="self_phone" name="self_phone" class="form-control"
+                value="{{ current_user.self_phone }}"/>
+              </div>
+            </div>
+            <div class="form-group">
+
+              <div class="col-xs-12">
+                <label for="date"><h4>Data di nascita</h4></label>
+                <input type="date" required id="birthday" name="birthday" class="form-control"
+                value="{{current_user.birthday}}">
+              </div>
+            </div>
+            <textarea style="display:none;" name="description" id="description"></textarea>
+            <div class="form-group">
+              <div class="col-xs-12">
+                <div class="form-group">
+                </div>
+                <button class="btn btn-lg" type="submit"><em class=""></em> Salva</button>
+              </div>
+            </div>
+          </form>
+        </div><!--/tab-pane-->
+
+
+        <div class="tab-pane" id="messages">
+          <hr>
+          <form id="Account-form" action="/profile/updatePassword" method="post" role="form" style="display: block;">
+
+            <div class="form-group">
+
+              <div class="col-xs-12">
+                <label for="old_password"><h4>Password Attuale</h4></label>
+
+                <input type="password" class="form-control" required name="old_password" id="old_password">
+              </div>
+            </div>
+
+            <div class="form-group">
+
+              <div class="col-xs-12">
+                <label for="password"><h4>Nuova Password</h4></label>
+
+                <input type="password" class="form-control" required name="password" id="password">
+              </div>
+            </div>
+
+            <div class="form-group">
+
+              <div class="col-xs-12">
+                <label for="password"><h4>Ripeti Password</h4></label>
+                <input type="password" required name="password_confirmation" id="password_confirmation" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-xs-12">
+                <br>
+                <button class="btn btn-lg" type="submit"><em class=""></em> Salva</button>
+              </div>
+            </div>
+
+          </form>
+
+          <div class="form-group">
+            <div class="col-xs-12">
+              <br>
+              <form class="form" action="/account/deleteUserAccountAction" method="post"  onReset="return confirmDeleteAccount()" id="form_close_account">
+                <input type="reset" value ="Chiudi l'account" class="btn btn-delete"/><em class=""></em>
+              </form>
+            </div>
+          </div>
+        </div><!--/tab-pane-->
+
+
+        <!--iniziomammt-->
+
+
+
+        <div class="tab-pane" id="feedback">
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-9">
+                <div class="panel panel-login">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h3 align="center">Feedback</h3>
+                      </div>
+                    </div>
+                    <br>
+
+                    <form id="register-form" action="/home/sendRequestAction" method="post" role="form" style="display: block;">
+                      <input type="hidden" id="id" name="id" value="{{ excursion.id }}">
+                      <div class="escursione">
+                        <label for="first_name"><h4><strong>Eccellente</strong></h4></label>&ensp;
+                        <label><input type="text"  class="form-control" value="{{five_star}}" readonly/></label>
+                        <br>
+
+
+                        <label for="first_name"><h4><strong>Ottimo</strong></h4></label>&ensp;
+                        <label><input type="text"  class="form-control" value="{{four_star}}" readonly></label>
+                        <br>
+
+                        <label for="first_name"><h4><strong>Buono</strong></h4></label>&ensp;
+                        <label><input type="text"  class="form-control" readonly value="{{three_star}}"></label>
+                        <br>
+
+                        <label for="first_name"><h4><strong>Mediocre</strong></h4></label>&ensp;
+                        <label><input type="text"  class="form-control"value="{{two_star}}" readonly/></label>
+                        <br>
+                        <label for="first_name"><h4><strong>Pessimo</strong></h4></label>&ensp;
+                        <label><input type="text"  class="form-control" value="{{one_star}}" readonly></label>
+                        <br>
+
+
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div><!--/tab-pane-->
+        <!--finemammt-->
+
+
+
+      </div><!--/tab-pane-->
+
+    </div><!--/tab-pane-->
+
+  </div>
+
+</div><!--/col-9-->
+
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block title %}Cerca Escursione{% endblock %}
+
+{% block footer %}
+<script src="/js/foundation-datepicker.js"></script>
+<script src="/js/foundation-datepicker.it.js"></script>
+
+
+<script>
+$(function(){
+  var today = new Date();
+	$('#meeting_date').fdatepicker({
+		format: 'mm/dd/yyyy',
+    startDate: today,
+		leftArrow:'<',
+		rightArrow:'>'
+	});
+});
+</script>
+
+
+{% endblock %}
+
+{% block body %}
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+      <div class="alert-placeholder"></div>
+      <div class="panel panel-success">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-center "><h2><strong>Ricerca Escursioni</strong></h2></div>
+              <form id="search-form" action="/excursion/findby" method="get" role="form" autocomplete="off">
+                <div class="form-group-registration ">
+                <strong><p align="center">Inserisci il luogo che vorresti visitare o lascia i campi vuoti per listarle tutte</p> </strong>
+                  <input type="text" placeholder="Esempio: Bari" name="destination" id="destination" tabindex="1" class="form-control" autocomplete="off" />
+                    <br>
+                    <input type="hidden" id="type" name="type" value="">
+      							<select name="type" id="type" tabindex="1" class="form-control">
+      								<option value="" disabled selected hidden>Esempio: Culturale</option>
+      								<option>Enogastronomica</option>
+      								<option>Culturale</option>
+      								<option">Tracking</option>
+      								<option>Turistica</option>
+      								<option>Divertentismo</option>
+      								<option>Ciclistica</option>
+      							</select>
+                    <br>
+                    <div class="form-group">
+                      <input type="text" placeholder="*Example: 15/06/2019" id="meeting_date"
+                       name="meeting_date" tabindex="1" class="form-control">
+                    </div>
+                    <br>
+                  <div class="form-group-registration">
+                    <div class="row">
+                      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                        <input type="submit" name="recover-submit" id="recover-submit" tabindex="2" class="form-control btn btn-login" value="Ricerca" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block title %}Escursioni{% endblock %}
+
+
+{% block footer %}
+<script src="/js/flashMessages.js"></script>
+
+
+{% endblock %}
+
+
+{% block body %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <hr>
+  <div class="container bootstrap snippet">
+    <div class="row">
+
+        <div class="col-sm-12">
+          <ul class="nav nav-tabs">
+            <li class="active"><a  data-toggle="tab" href="#home">Escursioni attive</a></li>
+            <li><a data-toggle="tab" href="#messages">Escursioni passate</a></li>
+          </ul>
+
+
+            <div class="tab-content">
+              <div class="tab-pane active" id="home">
+
+              <hr>
+              {% if excursions %}
+              {% for excursion in excursions %}
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+                    <div class="panel panel-login">
+                      <div class="panel-body">
+
+                        <div class="row">
+                          <div class="col-lg-12">
+
+                          </div>
+                        </div>
+
+                        <table class ="table table-dark">
+                          <tbody>
+                            <tr>
+                              <th scope="row"></th>
+                              <th scope="row">Dest.</th>
+                              <th scope="row">Tipo</th>
+                              <th scope="row">Posti</th>
+                              <th scope="row">Data</th>
+                              <th scope="row">Stato</th>
+                              <th scope="row">Azione</th>
+                            </tr>
+                            <tr>
+                              {% if excursion.profile_picture %}
+                              <th scope="row"><a href="/userprofile/show/{{ excursion.id_cicerone }}" >
+                              <img src="data:image/png;base64,{{ excursion.profile_picture }}" alt="avatar" class="avatar"/></a></th>
+                              {% else %}
+                              <th scope="row"><a href="userprofile/show/{{ excursion.id_cicerone }}" >
+                                <img src="/pictures/user2.png" alt="avatar" class="avatar"/></a></th>
+                              {% endif %}
+                              <th scope="row">{{excursion.destination}}</th>
+                              <th scope="row">{{excursion.type}}</th>
+                              <th scope="row">{{excursion.seats_booked}}</th>
+                              <th scope="row">{{excursion.meeting_date}}</th>
+                              <th scope="row">{{excursion.state}}</th>
+                              <form id="removeRequest-form" onsubmit="return confirm('Sei sicuro di voler eliminare questa richiesta di partecipazione?');"
+                                action="/RequestExcursion/deleteGlobtrotter" method="post" role="form" style="display: block;">
+                                <input type="hidden" id="id_globtrotter" name="id_globtrotter" value="{{excursion.id_globtrotter }}"/>
+                                <input type="hidden" id="id_partecipant" name="id_partecipant" value="{{excursion.id_partecipant }}"/>
+                                <input type="hidden" id="id_excursion" name="id_excursion" value="{{excursion.id_excursion }}"/>
+                              <th scope="row"><input type="submit" value="Rimuovi" style="float: right; type="submit" class="btn btn-secondary btn-sm"/></th>
+                              </form>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              {% endfor %}
+              {% else %}
+              <h3 align="center">Nessuna escursione prenotata</h3>
+              {% endif %}
+
+                  </div><!--/tab-pane-->
+                 <div class="tab-pane" id="messages">
+                   <hr>
+                   {% if excursions2 %}
+                   {% for excursion2 in excursions2 %}
+                   <div class="container">
+                     <div class="row">
+                       <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+                         <div class="panel panel-login">
+                           <div class="panel-body">
+
+                             <div class="row">
+                               <div class="col-lg-12">
+
+                               </div>
+                             </div>
+
+                             <table class ="table table-dark">
+                               <tbody>
+                                 <tr>
+                                   <th scope="row"></th>
+                                   <th scope="row">Dest.</th>
+                                   <th scope="row">Tipo</th>
+                                   <th scope="row">Data</th>
+                                   <th scope="row">Stato</th>
+                                   <th scope="row">Feedback</th>
+                                 </tr>
+                                 <tr>
+                                   {% if excursion2.profile_picture %}
+                                   <th scope="row"><a href="/userprofile/show/{{ excursion2.id_cicerone }}" >
+                                   <img src="data:image/png;base64,{{ excursion2.profile_picture }}" alt="avatar" class="avatar"/></a></th>
+                                   {% else %}
+                                   <th scope="row"><a href="{{ config_root }}/userprofile/show/{{ excursion2.id_cicerone }}" >
+                                     <img src="/pictures/user2.png" alt="avatar" class="avatar"/></a></th>
+                                   {% endif %}
+                                   <th scope="row">{{excursion2.destination}}</th>
+                                   <th scope="row">{{excursion2.type}}</th>
+                                   <th scope="row">{{excursion2.meeting_date}}</th>
+                                   <th scope="row">Passato</th>
+                                   {% set foo = 0 %}
+                                   {% for i in 0..feedbacks|length+5 %}
+                                       {% if feedbacks[i].id_cicerone == excursion2.id_cicerone %}
+                                       {% set foo = 1 %}
+                                       {% endif %}
+                                   {% endfor %}
+                                   {% if foo == 0 %}
+                                  <form id="removeRequest-form" method="post" action="/RatingFeedback/rating" role="form" style="display: block;">
+                                    <input type="hidden" id="id_cicerone" name="id_cicerone" value="{{excursion2.id_cicerone }}"/>
+                                    <input type="hidden" id="id_partecipant" name="id_partecipant" value="{{excursion2.id_partecipant }}"/>
+                                  <th scope="row"><input type="submit" value="Lascia feedback" style="float: right; type="submit" class="btn btn-third btn-sm"/></th>
+                                  </form>
+                                  {% else %}
+                                  <th scope="row">Rilasciato</th>
+                                  {% endif %}
+                                 </tr>
+                               </tbody>
+                             </table>
+
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     </div>
+                   {% endfor %}
+                   {% else %}
+                   <h3 align="center">Nessuna escursione prenotata</h3>
+                   {% endif %}
+
+                  </div><!--/tab-pane-->
+
+          </div><!--/tab-pane-->
+
+        </div>
+    </div>
+    </div><!--/col-9-->
+
+{% endblock %}

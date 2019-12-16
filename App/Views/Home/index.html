@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image:url(/pictures/home.png);">
+
+    </div>
+		<div class="carousel-caption d-none d-md-block">
+	<h1 style="font-family: Geneva"Cicerone</h1>
+	<h2 style="font-family: Geneva"><p>Il piacere di una vita sempre con lo zaino in spalla.</p></h2>
+	<div class="col-sm-6 col-sm-offset-3">
+
+	  <a class="form-control btn btn-login" href="{{ config_root }}/excursion/find">Trova escursione<span class="sr-only">(current)</span></a>
+
+	</div>
+
+</div>
+  </div>
+</div>
+{% endblock %}

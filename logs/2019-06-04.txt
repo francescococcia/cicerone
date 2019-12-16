@@ -1,0 +1,48 @@
+[04-Jun-2019 23:56:15 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\Core\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\C...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(106): Core\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(27): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->loginAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(120): Core\Controller->__call('login', Array)
+#6 C:\wamp64\www\public\index.php(44): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\Core\Auth.php' on line 64
+[04-Jun-2019 23:56:16 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\Core\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\C...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(106): Core\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(27): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->loginAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(120): Core\Controller->__call('login', Array)
+#6 C:\wamp64\www\public\index.php(44): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\Core\Auth.php' on line 64
+[04-Jun-2019 23:56:16 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\Core\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\C...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(106): Core\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(27): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->loginAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(120): Core\Controller->__call('login', Array)
+#6 C:\wamp64\www\public\index.php(44): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\Core\Auth.php' on line 64
+[04-Jun-2019 23:56:19 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Excursion not found'
+Stack trace: #0 C:\wamp64\www\public\index.php(44): Core\Router->dispatch('excursion/new')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 126
+[04-Jun-2019 23:56:25 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(44): Core\Router->dispatch('registrazione')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 130
+[04-Jun-2019 23:56:31 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\Core\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\C...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(106): Core\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Signup.php(27): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Signup->registrationAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(120): Core\Controller->__call('registration', Array)
+#6 C:\wamp64\www\public\index.php(44): Core\Router->dispatch('registration')
+#7 {main}
+Thrown in 'C:\wamp64\www\Core\Auth.php' on line 64

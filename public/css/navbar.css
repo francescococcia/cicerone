@@ -1,0 +1,30 @@
+.navbar-brand{
+    height: 75px;
+    line-height: 50px;
+
+}
+.navbar-nav >li > a {
+      height: 75px;
+      line-height: 50px;
+}
+
+.navbar-left{
+  height: 75px;
+  line-height: 50px;
+}
+
+.cicerone{
+	height: 60px;
+	line-height: 55px;
+}
+.fotouser{
+	height: 30px;
+	position: relative;
+}
+.carousel-inner>.active{
+  min-height:650px;
+  background-size: cover;
+}
+body {
+  padding-top: 80px;
+}

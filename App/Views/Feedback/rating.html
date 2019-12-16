@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block title %}Feedback{% endblock %}
+
+{% block footer %}
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="panel panel-login">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="text-center "><h2><strong>Lascia un feedback</strong></h2></div>
+          </div>
+        </div>
+        <form id="commonFields-form" action="/RatingFeedback/ratingCicerone" method="post" role="form" style="display: block;">
+					<div class="text-center ">
+					<div class="stars">
+					    <input class="star star-5" id="star-5" type="radio" value="5" required name="rating"/>
+					    <label class="star star-5" for="star-5"></label>
+					    <input class="star star-4" id="star-4" type="radio" value="4" name="rating"/>
+					    <label class="star star-4" for="star-4"></label>
+					    <input class="star star-3" id="star-3" type="radio" value="3" name="rating"/>
+					    <label class="star star-3" for="star-3"></label>
+					    <input class="star star-2" id="star-2" type="radio" value="2" name="rating"/>
+					    <label class="star star-2" for="star-2"></label>
+					    <input class="star star-1" id="star-1" type="radio" value="1" name="rating"/>
+					    <label class="star star-1" for="star-1"></label>
+
+					</div>
+					</div>
+					<div class="form-group">
+					<textarea required name="comment" placeholder="Massimo 100 caratteri"
+					cols="69" rows="5" id="comment" maxlength="100" class="form-control"></textarea>
+					</div>
+          <input type="hidden" id="id_cicerone" name="id_cicerone" value="{{rating.id_cicerone }}"/>
+          <input type="hidden" id="id_partecipant" name="id_partecipant" value="{{rating.id_partecipant }}"/>
+          <input type="hidden" id="id_excursion" name="id_excursion" value="{{rating.id_excursion }}"/>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Invia">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %}Feedback{% endblock %}
+
+{% block body %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+      <div class="panel panel-login">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 align="center">Feedback</h3>
+            </div>
+          </div>
+            <div class="escursione">
+            <label for="first_name"><h4><strong>Eccellente</strong></h4></label>&ensp;
+            <label><input type="text"  class="form-control" value="{{five_star}}" readonly/></label>
+            <br>
+
+
+            <label for="first_name"><h4><strong>Ottimo</strong></h4></label>&ensp;
+            <label><input type="text"  class="form-control" value="{{four_star}}" readonly></label>
+            <br>
+
+            <label for="first_name"><h4><strong>Buono</strong></h4></label>&ensp;
+            <label><input type="text"  class="form-control" readonly value="{{three_star}}"></label>
+            <br>
+
+            <label for="first_name"><h4><strong>Mediocre</strong></h4></label>&ensp;
+            <label><input type="text"  class="form-control"value="{{two_star}}" readonly/></label>
+            <br>
+            <label for="first_name"><h4><strong>Pessimo</strong></h4></label>&ensp;
+            <label><input type="text"  class="form-control" value="{{one_star}}" readonly></label>
+            <br>
+            <label for="first_name"><h4><span class="glyphicon glyphicon-star" aria-hidden="true">
+              <strong>{{avarage_rating}}/5 - {{n_feedback}} feedback</strong>
+            </span></h4></label>
+            <label></label>
+            <br>
+
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% for feedback in feedbacks %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+        <div class="panel panel-login">
+          <div class="panel-body">
+<div class="escursione-public">
+  <br>
+    {% if feedback.profile_picture %}
+        <label for="first_name"><h4><a href="/userprofile/show/{{feedback.id_globtrotter}}">
+          <img src="data:image/png;base64,{{feedback.profile_picture }}" alt="avatar" class="avatar"/>    {{feedback.user_name}}</a>
+      {% else %}
+        <label for="first_name"><h4><a href="/userprofile/show/{{feedback.id_globtrotter}}">
+          <img src="/pictures/user2.png" alt="avatar" class="avatar"/>  {{feedback.user_name}}</a>
+      {% endif %}
+      </h4></label>&ensp;<br>
+      <label><textarea class="form-control" readonly rows="3" id="description" maxlength="300" class="form-control">{{feedback.comment}}</textarea></label>
+  <br>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+{% endfor %}
+{% endblock %}

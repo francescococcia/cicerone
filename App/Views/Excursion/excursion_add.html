@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block title %}Aggiungi Escursione{% endblock %}
+
+
+
+{% block footer %}
+<script src="/js/foundation-datepicker.js"></script>
+<script src="/js/foundation-datepicker.it.js"></script>
+<script src="/js/flashMessages.js"></script>
+
+<script>
+function confirmDelete() {
+  var richiesta = window.confirm("Sei sicuro di voler eliminare l'escursione? Verranno eliminati tutti i tuoi globtrotters qual'ora ne avessi");
+  if(richiesta)
+  {
+    document.getElementById("removeExcursion-form").submit();
+  }
+}
+</script>
+
+<script>
+  function setTwoNumberDecimal(event) {
+    this.value = parseFloat(this.value).toFixed(2);
+}
+</script>
+
+
+<script>
+$(function(){
+  var today = new Date();
+	$('#meeting_date').fdatepicker({
+		format: 'mm/dd/yyyy',
+    startDate: today,
+		leftArrow:'<',
+		rightArrow:'>'
+	});
+});
+</script>
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-xs-5">
+							<h3 style="font-family: Geneva">Aggiugi Escursione</h3>
+							</div>
+						</div>
+					<form id="register-form" action="/home/add" method="post" role="form" style="display: block;">
+				 <div class="form-group">
+									<input type="text" autocapitalize="on" name="destination" id="destination" tabindex="1" class="form-control"
+									placeholder="*Destinazione " >
+				</div>
+				<div class="form-group">
+						<input type="text" autocapitalize="on" name="meeting_address" id="meeting_address" tabindex="1" class="form-control"
+						placeholder="*Via dell'incontro " >
+			 </div>
+						<div class="form-group">
+							<style>
+									select:invalid { color: gray; }
+							</style>
+							<select required name="type" id="type" tabindex="1" class="form-control">
+								<option value="" disabled selected hidden>*Tipo escursione</option>
+								<option>Enogastronomica</option>
+								<option>Culturale</option>
+								<option">Tracking</option>
+								<option>Turistica</option>
+								<option>Divertentismo</option>
+								<option>Ciclistica</option>
+								<option>Altro</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<style>
+									select:invalid { color: gray; }
+							</style>
+							<select required name="language" id="language" tabindex="1" class="form-control">
+								<option value="" disabled selected hidden>*Lingua</option>
+								<option>Italiano</option>
+								<option>Inglese</option>
+								<option">Francese</option>
+								<option>Spagnolo</option>
+								<option>Tedesco</option>
+								<option>Russo</option>
+								<option>Cinese</option>
+							</select>
+						</div>
+						<div class="form-group">
+	            <input type="text" placeholder="*Data dell'escursione (dd/mm/yyy)" required id="meeting_date"
+	            max="{{ date_min }}" min="1910-01-01" name="meeting_date" tabindex="1" class="form-control">
+	          </div>
+							<div class="form-group">
+							<input type="text" placeholder="*Orario di incontro" id="meeting_time" name="meeting_time" data-toggle="timepicker" tabindex="1" class="form-control">
+						</div>
+						<div class="input-group">
+								<input type="number" placeholder="*Prezzo" id="price" name="price" min="0" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" class="form-control">
+								<span class="input-group-addon">€</span>
+						</div>
+            <div class="form-group">
+
+						</div>
+            <div class="form-group">
+								<input type="number" placeholder="*Posti a disposizione" id="seats" name="seats" min="0" class="form-control">
+						</div
+							<div class="form-group">
+							<textarea name="description" placeholder="Presenta la tua escursione agli altri con una mini descrizione. Massimo 300 caratteri."
+		          cols="69" rows="4" id="description" maxlength="300" class="form-control"></textarea>
+							</div>
+								<div class="form-group">
+									<div class="row">
+										<div class="col-sm-6 col-sm-offset-3">
+											<input type="submit" name="registser-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Aggiungi">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+				</div>
+			</div>
+		</div>
+
+{% endblock %}

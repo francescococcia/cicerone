@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/navbar.css"/>
+  <link rel="stylesheet" href="/css/formlogin.css"/>
+  <link rel="stylesheet" href="/css/generics.css"/>
+  <link rel="stylesheet" href="/css/buttons.css"/>
+  <link rel="stylesheet" href="/css/timepicker.min.css"/>
+  <link rel="stylesheet" href="/css/star.css"/>
+  <link rel="stylesheet" href="/js/foundation-datepicker.css"/>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top navbar fixed-bottom">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="{{ config_root }}/" > <img src="/pictures/cicerone.png" class="cicerone" align="right" alt=""> Cicerone</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+     {% if not current_user %}
+     <li class="nav-item active">
+        <a class="icon-bar" href="{{ config_root }}/excursion/find"><img src="/pictures/search2.png" class="search"  alt="img"  >Trova escursione<span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item active ">
+         <a class="icon-bar" href="{{ config_root }}/registration"><img src="/pictures/signup.png" class="signup"  alt="img"  > Registrati<span class="sr-only">(current)</span></a>
+       </li>
+      <li class="nav-item active ">
+        <a class="icon-bar" href="{{ config_root }}/login"><img src="/pictures/login.png" class="login"  alt="img"  > Accedi<span class="sr-only">(current)</span></a>
+      </li>
+     {% else %}
+     <li class="nav-item active">
+        <a class="icon-bar" href="{{ config_root }}/excursion/find"><img src="/pictures/search2.png" class="search"  alt="img"  >Trova escursione<span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item active">
+        <a class="icon-bar" href="{{ config_root }}/excursion/add"><img src="/pictures/plus.png" class="plus"  alt="img"  > Offri escursione<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="dropdown active">
+       <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         {% if current_user.user_role == false %}
+         {% if current_user.profile_picture %}
+         <img src="data:image/png;base64,{{ profile_picture }}" alt="avatar" class="avatar"/>  {{current_user.name}} <span class="caret"></span></a>
+         {% else %}
+         <img src="/pictures/user2.png" alt="avatar" class="avatar"/>  {{current_user.name}} <span class="caret"></span></a>
+         {% endif %}
+         {% else %}
+         {% if current_user.profile_picture %}
+         <img src="data:image/png;base64,{{ profile_picture }}" alt="avatar" class="avatar"/>  Amministratore <span class="caret"></span></a>
+         {% else %}
+         <img src="/pictures/user2.png" alt="avatar" class="avatar"/>  Amministratore <span class="caret"></span></a>
+         {% endif %}
+         {% endif %}
+           <ul class="dropdown-menu">
+             <li><a href="/dashboard">Profilo</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="{{ config_root }}/excursion/offered">Escursioni offerte</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="{{ config_root }}/excursion/booked">Escursioni prenotate</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="{{ config_root }}/send/ticket">Invio segnalazione</a></li>
+             {% if current_user.user_role == false %}
+             {% else %}
+             <li><a href="{{ config_root }}/management/accounts">Gestisci accounts</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="{{ config_root }}/management/excursions">Gestisci escursioni</a></li>
+             {% endif %}
+             <li role="separator" class="divider"></li>
+             <li><a href="{{ config_root }}/logout">Esci</a></li>
+           </ul>
+         </li>
+     {% endif %}
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+
+
+  {% for message in flash_messages %}
+  <div>
+    <h5 class='alert alert-{{message.type}}'>{{ message.body }}
+    </div>
+    {% endfor %}
+
+    {% block body %}
+    {% endblock %}
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+
+
+
+    {% block footer %}
+    <script src="/js/flashMessages.js"></script>
+    <script src="/js/timepicker.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function(event)
+      {
+          timepicker.load({
+              interval: 5,
+          });
+      });
+    </script>
+    {% endblock %}
+
+  </body>
+  </html>

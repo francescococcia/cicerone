@@ -1,0 +1,82 @@
+.plus{
+  right: 1px;
+  bottom: 1px;
+  position: relative;
+}
+.signup{
+  top: 1px;
+  position: relative;
+}
+.login{
+  right: 2px;
+  bottom: 1px;
+  position: relative;
+}
+.search{
+	height: 30px;
+	position: relative;
+	right: 1px;
+  top: 2px;
+}
+.form-group-registration
+{
+  height: 100px;
+}
+.btn-lg{
+  background-color: #59B2E0;
+  color: #fff;
+  height: auto;
+  border-color: #59B2E6;
+}
+
+.btn-delete{
+  background-color: red;
+  color: #fff;
+  height: auto;
+  border-color: red;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px ;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #59B2E0;
+    color: #fff;
+    border-color: #59B2E6;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.error {
+  clear:both;
+  background-color: #FFDBE8;
+}
+textarea {
+  resize: none;
+}
+.input-group{
+    float: none;
+}
+.input-group {
+    position: relative;
+    z-index: 3;
+}
+div.escursione label{
+
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+
+}
+div.escursione-public label{
+
+  display: inline-block;
+  width: 500px;
+  text-align: left;
+}

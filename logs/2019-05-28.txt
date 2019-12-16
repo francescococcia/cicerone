@@ -1,0 +1,168 @@
+[28-May-2019 02:26:20 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/pictures/...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:25 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Forgot not found'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('forgot/log')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 128
+[28-May-2019 02:26:25 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('forgot/pictures...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:32 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Password.php(21): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Password->forgotPasswordAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('forgotPassword', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/forgot')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:33 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Password.php(21): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Password->forgotPasswordAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('forgotPassword', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/forgot')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:33 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/pictures/...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:36 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Password.php(21): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Password->forgotPasswordAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('forgotPassword', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/forgot')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:36 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/pictures/...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:36 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Password.php(21): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Password->forgotPasswordAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('forgotPassword', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/forgot')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:36 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/pictures/...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:36 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Password.php(21): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Password->forgotPasswordAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('forgotPassword', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/forgot')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:36 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/pictures/...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:39 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Signup.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Signup->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('registrazione')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:39 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('pictures/fotous...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:43 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Password.php(21): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Password->forgotPasswordAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('forgotPassword', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/forgot')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:43 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/pictures/...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:43 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Forgot not found'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('forgot/log')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 128
+[28-May-2019 02:26:43 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('forgot/pictures...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:44 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login/pictures/...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:46 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('pictures/fotous...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:26:49 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Signup.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Signup->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('registrazione')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:26:49 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('pictures/fotous...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:27:02 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Login.php(27): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Login->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('login')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:27:02 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('pictures/fotous...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:27:39 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: HTTP_REFERER'
+Stack trace: #0 C:\wamp64\www\App\Auth.php(64): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\A...', 64, Array)
+#1 C:\wamp64\www\Core\Controller.php(105): App\Auth::getCurrentPage()
+#2 C:\wamp64\www\App\Controllers\Signup.php(25): Core\Controller->isUserLoggedInAlready()
+#3 [internal function]: App\Controllers\Signup->newAction()
+#4 C:\wamp64\www\Core\Controller.php(52): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\Core\Router.php(122): Core\Controller->__call('new', Array)
+#6 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('registrazione')
+#7 {main}
+Thrown in 'C:\wamp64\www\App\Auth.php' on line 64
+[28-May-2019 02:27:39 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('pictures/fotous...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132
+[28-May-2019 02:27:39 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\wamp64\www\public\index.php(41): Core\Router->dispatch('pictures/fotous...')
+#1 {main}
+Thrown in 'C:\wamp64\www\Core\Router.php' on line 132

@@ -1,0 +1,25 @@
+.app-button{
+  border-color: #dad7af ;
+    background-color: #dad7af ;
+    color: black;
+    width: 150px;
+    margin: 15px;
+    display:inline-block;
+    line-height: 50px;
+    float: left;
+}
+.row{
+  text-align:center;
+  /*the same margin which is every button have, it is for small screen, and if you have many buttons.*/
+  margin-left:-20px;
+  marin-right:-20px;
+}
+.btn-escursione{
+  height:auto;
+  display: inline-block;
+  width: 270px;
+  background-color: #59B2E0;
+   float: right;
+  color: #fff;
+  border-color: #59B2E6;
+}

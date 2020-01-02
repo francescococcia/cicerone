@@ -1,6 +1,6 @@
 <?php
 
-namespace Config;//configurazione
+namespace Config;
 
 /**
  * Application configuration

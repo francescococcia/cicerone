@@ -1,7 +1,5 @@
 # Welcome to the PHP MVC framework
-Prima di inizializzare il progetto seguire questa guida per installare il composer sulla versione del php corrente: https://getcomposer.org/download/
-
-papocchie
+First to initialize the project you follow this guide for install the composer on the version current php: https://getcomposer.org/download/
 
 This is a simple MVC framework for building web applications in PHP. It's free and [open-source](LICENSE).
 
